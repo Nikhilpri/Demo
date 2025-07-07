@@ -1,8 +1,8 @@
-name : welcome
-on : push :
-jobs :
-  namaste :
-    runs-on : ubuntu-latest
-    steps :
-      - name : greet the user
-        run : echo "welcome nikhil"
+name: welcome
+on: push
+jobs:
+  namaste:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet the user
+        run: echo "welcome nikhil"
